@@ -129,7 +129,7 @@ img {
   border-radius: 50px;
 }
 .hero-btn:after {
-  transform: translate(10px, 0) rotate(38deg);
+  transform: translate(23px, 0) rotate(38deg);
 }
 .hero-btn:before {
   transform: translate(74px, 5px) rotate(-36deg);

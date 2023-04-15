@@ -699,7 +699,7 @@ img {
   .products__item:focus {
     box-shadow: 0px 0px 15px 10px rgba(255, 184, 202, 0.55);
     transform: scale(1.1);
-    animation-delay: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   }
   .products__item:nth-child(2):hover,
   .products__item:nth-child(2):focus {
@@ -1158,6 +1158,13 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.images-about_items-p:hover {
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
 }
 
 html {
@@ -1894,4 +1901,8 @@ img {
     flex-direction: row;
     gap: 12px;
   }
+}
+.contacts-list__item:hover {
+  box-shadow: 0 8px 30px rgba(144, 35, 62, 0.632);
+  cursor: pointer;
 }/*# sourceMappingURL=index.min.css.map */

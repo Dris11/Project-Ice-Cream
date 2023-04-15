@@ -208,3 +208,8 @@
     gap: 12px;
   }
 }
+
+.contacts-list__item:hover {
+  box-shadow: 0 8px 30px rgba(144, 35, 62, 0.632);
+  cursor: pointer;
+}

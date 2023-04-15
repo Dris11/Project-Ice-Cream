@@ -64,7 +64,7 @@ window.addEventListener('DOMContentLoaded', () => {
     refs.modal.classList.toggle('modal--is-hidden');
   }
 })();
-(() => {
+() => {
   const refs = {
     openModalBtn: document.querySelector('[data-modal-open-milkshake]'),
     closeModalBtn: document.querySelector('[data-modal-close-milkshake]'),
@@ -77,4 +77,4 @@ window.addEventListener('DOMContentLoaded', () => {
   function toggleModal() {
     refs.modal.classList.toggle('modal--is-hidden');
   }
-})();
+};
